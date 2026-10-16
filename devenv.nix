@@ -8,4 +8,7 @@
 
 {
   env.GREET = "devenv";
+  packages = [
+    pkgs.terraform-docs
+  ];
 }
